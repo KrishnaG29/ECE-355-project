@@ -147,7 +147,7 @@ const unsigned char oled_init_cmds[] =
 //
 // Character specifications for LED Display (1 row = 8 bytes = 1 ASCII character)
 // Example: to display '4', retrieve 8 data bytes stored in Characters[52][X] row
-//          (where X = 0, 1, ..., 7) and send them one by one to LED Display. 
+//          (where X = 0, 1, ..., 7) and send them one by one to LED Display.
 // Row number = character ASCII code (e.g., ASCII code of '4' is 0x34 = 52)
 //
 const unsigned char Characters[][8] = {
